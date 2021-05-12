@@ -47,7 +47,7 @@ export default function App() {
       setWarningMsg("...loading");
       return;
     } else if (search && searchResult.length === 0) {
-      setWarningMsg(`nothing matches with '${search}'`);
+      setWarningMsg(`nothing matches with '${search.trim()}'`);
       return;
     }
     setWarningMsg("");
