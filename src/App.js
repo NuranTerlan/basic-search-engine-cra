@@ -19,7 +19,7 @@ export default function App() {
       const writingItv = setTimeout(() => {
         setIsWriting(false);
         const result = posts.filter((p) =>
-          p.title.toLowerCase().includes(search.toLocaleLowerCase())
+          p.title.toLowerCase().includes(search.trim().toLocaleLowerCase())
         );
         setSearchResult(result);
       }, 650);
