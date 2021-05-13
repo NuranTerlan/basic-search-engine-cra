@@ -27,6 +27,6 @@
   font-weight: 300;
 }
 
-/* .searchbox input[type="text"]:focus {
-  background-color: #f0f5f9;
-} */
+.searchbox input[type="text"]:focus {
+  background-color: #4c4e5070;
+}
